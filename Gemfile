@@ -2,9 +2,5 @@ source 'https://rubygems.org'
 
 gem 'rspec'
 
-group :test do
-  gem 'coveralls', :require => false
-end
+gem 'coveralls', require: false
 
-require 'coveralls'
-Coveralls.wear!
